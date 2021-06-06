@@ -15,7 +15,7 @@
 </template>
 <script>
 export default {
-  name: 'tpl-header'
+  name: 'home-header'
 
 }
 </script>
