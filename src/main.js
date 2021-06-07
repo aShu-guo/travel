@@ -2,9 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 // App.vue App.js App.json
-// import App from './App'
+import App from './App'
 import router from './router'
-import home from '@/components/home'
+// import home from '@/components/home'
 // import List from '@/components/list'
 // 解决移动端点击事件延迟300ms的问题
 import FastClick from 'fastclick'
@@ -25,6 +25,6 @@ Vue.use(VueAwesome)
 new Vue({
   el: '#app-test',
   router,
-  components: {home},
-  template: '<home/>'
+  components: {App},
+  template: '<App/>'
 })

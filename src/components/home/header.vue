@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <span class="iconfont">&#xe7c2;</span>
+      <router-link tag="span" to="/detail" class="iconfont">&#xe7c2;</router-link>
     </div>
     <div class="header-center">
       <span class="iconfont">&#xe669;</span>
@@ -9,11 +9,12 @@
     </div>
     <div class="header-right">
       城市
-      <span class="iconfont">&#xe65a;</span>
+      <router-link tag="span" to="/cities" class="iconfont">&#xe65a;</router-link>
     </div>
   </div>
 </template>
 <script>
+
 export default {
   name: 'home-header'
 
