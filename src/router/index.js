@@ -21,6 +21,12 @@ export default new Router({
       name: 'cities',
       component: () => import('@/components/city/cities')
 
+    },
+    {
+      path: '/timer',
+      name: 'timer',
+      component: () => import('@/components/demo/timer')
+
     }
   ]
 })

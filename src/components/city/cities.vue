@@ -131,4 +131,5 @@ export default {
           line-height .9rem
           border-top .02rem solid #cacaca
           border-right .02rem solid #cacaca
+
 </style>
